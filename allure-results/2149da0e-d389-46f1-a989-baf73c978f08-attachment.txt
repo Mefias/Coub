@@ -1,0 +1,12 @@
+Intesepted grapgQl  request,body = {} {
+  operationName: [32m'TokenRates'[39m,
+  variables: {},
+  query: [32m'query TokenRates {\n'[39m +
+    [32m'  tokenRates {\n'[39m +
+    [32m'    amount\n'[39m +
+    [32m'    payToken\n'[39m +
+    [32m'    usdPrice\n'[39m +
+    [32m'    __typename\n'[39m +
+    [32m'  }\n'[39m +
+    [32m'}'[39m
+}

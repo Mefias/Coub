@@ -1,0 +1,8 @@
+Intecepted graphQl  query,query = {} query TokenRates {
+  tokenRates {
+    amount
+    payToken
+    usdPrice
+    __typename
+  }
+}

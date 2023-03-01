@@ -1,0 +1,31 @@
+Intecepted GetLoggedUser fragment UserFields on User {
+  address
+  username
+  bio
+  avatar
+  background
+  twitter
+  discord
+  facebook
+  instagram
+  telegram
+  consent
+  likes
+  views
+  followers(first: 0) {
+    totalCount
+    __typename
+  }
+  following(first: 0) {
+    totalCount
+    __typename
+  }
+  __typename
+}
+
+query GetLoggedUser {
+  loggedUser {
+    ...UserFields
+    __typename
+  }
+}

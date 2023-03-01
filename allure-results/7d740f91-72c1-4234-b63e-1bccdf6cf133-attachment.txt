@@ -1,0 +1,35 @@
+Intesepted grapgQl  request,body = {} {
+  operationName: [32m'GetLoggedUser'[39m,
+  variables: {},
+  query: [32m'fragment UserFields on User {\n'[39m +
+    [32m'  address\n'[39m +
+    [32m'  username\n'[39m +
+    [32m'  bio\n'[39m +
+    [32m'  avatar\n'[39m +
+    [32m'  background\n'[39m +
+    [32m'  twitter\n'[39m +
+    [32m'  discord\n'[39m +
+    [32m'  facebook\n'[39m +
+    [32m'  instagram\n'[39m +
+    [32m'  telegram\n'[39m +
+    [32m'  consent\n'[39m +
+    [32m'  likes\n'[39m +
+    [32m'  views\n'[39m +
+    [32m'  followers(first: 0) {\n'[39m +
+    [32m'    totalCount\n'[39m +
+    [32m'    __typename\n'[39m +
+    [32m'  }\n'[39m +
+    [32m'  following(first: 0) {\n'[39m +
+    [32m'    totalCount\n'[39m +
+    [32m'    __typename\n'[39m +
+    [32m'  }\n'[39m +
+    [32m'  __typename\n'[39m +
+    [32m'}\n'[39m +
+    [32m'\n'[39m +
+    [32m'query GetLoggedUser {\n'[39m +
+    [32m'  loggedUser {\n'[39m +
+    [32m'    ...UserFields\n'[39m +
+    [32m'    __typename\n'[39m +
+    [32m'  }\n'[39m +
+    [32m'}'[39m
+}
